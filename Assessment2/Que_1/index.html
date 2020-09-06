@@ -1,0 +1,156 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        .container1 {
+            padding: 50px 50px;
+            background-color: rgb(235, 236, 236);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 600px;
+            height: 420px;
+            margin: 20px auto;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-size: larger;
+        }
+
+
+        .main {
+
+            display: flex;
+            width: 60%;
+            margin-bottom: 15px;
+        }
+
+        .label {
+            padding: 5px;
+        }
+
+        .icon {
+            padding: 5px;
+            background: rgb(235, 236, 236);
+            color: black;
+            min-width: 10px;
+            text-align: center;
+            border: 2px solid rgb(226, 228, 228);
+        }
+
+        .inp_field {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 40%;
+            padding: 5px;
+            border: 2px solid rgb(226, 228, 228)
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container1">
+
+      
+            <form name="myForm">
+                
+    <script src="app.js"></script>
+
+            <div id="main">
+                <label for="fname" style="float:left">Full Name</label>
+                <input class="inp_field" type="text" id="Full_name" placeholder="Full Name"
+                    style="margin-right:10px;;float:right">
+                <i class="fa fa-user icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+            <div id="main">
+                <label for="Add" style="float:left">Address Line 1</label>
+                <input class="inp_field" type="text" id="Add_1" placeholder="Address Line 1"
+                    style="margin-right:10px;;float:right">
+                <i class="far fa-address-book icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+            <div id="main">
+                <label for="Add1" style="float:left">Address Line 2</label>
+                <input class="inp_field" type="text" id="Add_2" placeholder="Address Line 2"
+                    style="margin-right:10px;;float:right">
+                <i class="far fa-address-book icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+            <div id="main">
+                <label for="City" style="float:left">City</label>
+                <input class="inp_field" type="text" placeholder="City" id="City"
+                    style="margin-right:10px;;float:right">
+                <i class="fas fa-building icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+            <div id="main">
+                <label for="State" style="float:left">State/province/Region</label>
+                <input class="inp_field" type="text" placeholder="State/province/Region" id="State"
+                    style="margin-right:10px;;float:right">
+                <i class="fas fa-map-marker-alt icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+            <div id="main">
+                <label for="Post" style="float:left">Postal Code/ZIP</label>
+                <input class="inp_field" type="text" placeholder="Postal Code/ZIP" id="Pos_code"
+                    style="margin-right:10px;;float:right">
+                <i class="far fa-envelope-open icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+            <div id="main">
+                <label for="Country" style="float:left">Country</label>
+                <select class="inp_field"   id="Country" placeholder="Afganistan" style="margin-right:10px;;float:right">
+                    <option value="Afganistan">Afganistan</option>
+                    <option value="India">India</option>
+                    <option value="Canada">Canada</option>
+                    <option value="US">US</option>
+                  </select>
+              
+                <i class="far fa-map icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+
+            <div id="main">
+                <label for="mail" style="float:left">Email</label>
+                <input class="inp_field" type="text" placeholder="Email" id="Email"
+                    style="margin-right:10px;;float:right">
+                <i class="fa fa-user icon" style="font-size:15px;float:right"></i>
+
+            </div>
+            <br><br>
+            <div id="main">
+                <label for="Phone" style="float:left">Phone Number</label>
+                <input class="inp_field" type="text" placeholder="Phone Number" id="Ph_no"
+                    style="margin-right:10px;;float:right">
+                <i class="fa fa-user icon" style="font-size:15px;float:right"></i>
+
+            </div>
+
+            <br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <input type="submit" value="Submit" onclick="myFunction()" style=" font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+       
+            <p id="demo"></p>
+         </form>
+    </div>
+
+</body>
+
+</html>
